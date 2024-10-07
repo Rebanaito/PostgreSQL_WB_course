@@ -22,6 +22,7 @@ Environment: Ubuntu 22, fresh install
 
 `
 docker ps
+
 docker cp thai.sql <container_id>:/tmp
 `
 
@@ -29,7 +30,9 @@ docker cp thai.sql <container_id>:/tmp
 
 `
 docker exec -it test_db psql -U postgres
+
 \l
+
 \c postgres
 `
 
@@ -37,8 +40,11 @@ docker exec -it test_db psql -U postgres
 
 `
 \i /tmp/thai.sql
+
 \dn
+
 \dt book.*
+
 `
 
 Делаем select-запрос для подсчета строк с данными в таблице book.tickets:
