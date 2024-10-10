@@ -1,5 +1,3 @@
-# Курс по PostgreSQL
-
 ## ДЗ №1
 
 Environment: Ubuntu 22, fresh install
