@@ -20,7 +20,9 @@ Environment: Ubuntu 22, fresh install
 
 `
 docker ps
+`
 
+`
 docker cp thai.sql <container_id>:/tmp
 `
 
