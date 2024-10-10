@@ -53,6 +53,7 @@ commit;
 Снова запускаем две транзакции, но на этот раз устанавливаем во второй сессии уровень изоляции REPEATABLE READ
 
 ```sql
+begin;
 set transaction isolation level repeatable read;
 ```
 
